@@ -228,7 +228,7 @@ This was one of the annoying problems I encountered.
 
 For me, slot A always flashed, while slot B always returned an unknown error.
 
-My workaround was downgrading the stock ROM to the January 2026 security patch. I was previously on the September **[add year]** patch.
+My workaround was downgrading the stock ROM to the January 2026 security patch. I was previously on the September **[2026]** patch.
 
 After that, I managed to get the phone onto slot A, confirmed it with:
 
