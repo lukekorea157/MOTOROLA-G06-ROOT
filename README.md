@@ -21,7 +21,7 @@ This is based on my personal experience. It's not an official guide, and I can't
 - Build ID: VVOB35.78-158
 - Security patch: January 2026
 - Kernel: 6.6.66-android15-8 (GKI)
-- KernelSU Manager: `<add your version here>`
+- KernelSU Manager: `<3.3.1v>`
 - Bootloader unlock: Tanuki.sh (Linux tool)
 
 If your model, variant, or build is different, don't flash my files. Follow the guide using your own stock firmware.
