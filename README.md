@@ -304,24 +304,6 @@ A couple of things to know:
 
 It's an interesting alternative if you want to experiment with different Android builds without completely replacing your stock installation.
 
-## Files
-
-If I eventually upload my own patched image, make sure you check the device model, build ID, and SHA256 checksum before flashing anything.
-
-Honestly, patching your own image is always preferable. There's no reason to blindly trust a random binary from somebody on the internet (including me).
-
-## Credits
-
-- The XDA thread author for the Motorola G06 bootloader unlocking method.
-- Tanuki.sh for the Linux unlocking tool.
-- KernelSU: https://github.com/tiann/KernelSU
-- DSU Sideloader: https://github.com/VegaBobo/DSU-Sideloader
-
-## And that's it
-
-Hopefully this helps another Motorola G06 (Lagos) owner get their device rooted without spending hours figuring everything out.
-
-Have fun, make backups, and please don't flash random firmware. :)
 
 ## GSI tests (Geekbench 7.1)
 
@@ -337,6 +319,29 @@ Some benchmark results from GSIs I tested on the Motorola G06 (Lagos), MediaTek 
 - Both GSIs score roughly 8-10% higher in multi-core than the stock number, probably because there's less Motorola bloat running in the background.
 - The stock scores are a generic result from the web, **not** a run on my phone, so treat the comparison as approximate.
 - Benchmarks aren't everything. Stability, battery life, GPU behavior in games and root/module compatibility matter more in daily use.
-Credits 
-- - Luke(me) (lukekorea157): rooting, flashing, GSI testing and all benchmark runs.
+  
+
+
+## Files
+
+If I eventually upload my own patched image, make sure you check the device model, build ID, and SHA256 checksum before flashing anything.
+
+Honestly, patching your own image is always preferable. There's no reason to blindly trust a random binary from somebody on the internet (including me).
+
+
+## Credits
+
+- The XDA thread author for the Motorola G06 bootloader unlocking method.
+- Tanuki.sh for the Linux unlocking tool.
+- KernelSU: https://github.com/tiann/KernelSU
+- DSU Sideloader: https://github.com/VegaBobo/DSU-Sideloader
+- Luke(me) (lukekorea157): rooting, flashing, GSI testing and all benchmark runs.
 - Claude by Anthropic (AI assistant): benchmark analysis, comparison spreadsheet and write-up help.
+
+
+## And that's it
+
+Hopefully this helps another Motorola G06 (Lagos) owner get their device rooted without spending hours figuring everything out.
+
+Have fun, make backups, and please don't flash random firmware. :)
+
