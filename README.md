@@ -322,3 +322,21 @@ Honestly, patching your own image is always preferable. There's no reason to bli
 Hopefully this helps another Motorola G06 (Lagos) owner get their device rooted without spending hours figuring everything out.
 
 Have fun, make backups, and please don't flash random firmware. :)
+
+## GSI tests (Geekbench 7.1)
+
+Some benchmark results from GSIs I tested on the Motorola G06 (Lagos), MediaTek MT6769V/CB, 3.64 GB RAM. I ran the tests, and Claude (Anthropic's AI assistant) helped me analyze the numbers and write this section.
+
+| ROM | Single-core | Multi-core | Single vs stock | Multi vs stock |
+|---|---|---|---|---|
+| Stock (generic result from the web) | 400 | 1349 | baseline | baseline |
+| crDroid 11.16 | 400 | 1454 | 0.0% | +7.8% |
+| AOSP GSI (Android 16) | 381 | 1482 | -4.8% | +9.9% |
+
+- Single-core is basically the same everywhere. The small differences are within normal run-to-run variance.
+- Both GSIs score roughly 8-10% higher in multi-core than the stock number, probably because there's less Motorola bloat running in the background.
+- The stock scores are a generic result from the web, **not** a run on my phone, so treat the comparison as approximate.
+- Benchmarks aren't everything. Stability, battery life, GPU behavior in games and root/module compatibility matter more in daily use.
+Credits 
+- - Luke(me) (lukekorea157): rooting, flashing, GSI testing and all benchmark runs.
+- Claude by Anthropic (AI assistant): benchmark analysis, comparison spreadsheet and write-up help.
