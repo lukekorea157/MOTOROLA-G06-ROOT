@@ -315,6 +315,8 @@ Some benchmark results from GSIs I tested on the Motorola G06 (Lagos), MediaTek 
 | crDroid 11.16 | 400 | 1454 | 0.0% | +7.8% |
 | AOSP GSI (Android 16) | 381 | 1482 | -4.8% | +9.9% |
 | E/OS GSI | 372 | 1255 | -7.0% | -7.0% |
+|AOSP 17|   381  | 1473 | -4.8% | +9.2% |
+|PixelExp (Android 16) | 381 | 1482 | -4.8% |+9.9%|
 
 - Single-core is basically the same everywhere. The small differences are within normal run-to-run variance.
 - Both GSIs score roughly 8-10% higher in multi-core than the stock number, probably because there's less Motorola bloat running in the background.
