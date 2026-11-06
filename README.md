@@ -313,7 +313,7 @@ Some benchmark results from GSIs I tested on the Motorola G06 (Lagos), MediaTek 
 |---|---|---|---|---|
 | Stock (generic result from the web) | 400 | 1349 | baseline | baseline |
 | crDroid 11.16 | 400 | 1454 | 0.0% | +7.8% |
-| AOSP GSI (Android 16) | 381 | 1482 | -4.8% | +9.9% |
+| AOSP GSI (Android 16) | 380 | 1474 | -5.0% | +9.3% |
 | E/OS GSI | 372 | 1255 | -7.0% | -7.0% |
 |AOSP 17|   381  | 1473 | -4.8% | +9.2% |
 |PixelExp (Android 16) | 381 | 1482 | -4.8% |+9.9%|
