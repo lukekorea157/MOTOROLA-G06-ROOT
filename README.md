@@ -322,7 +322,27 @@ Some benchmark results from GSIs I tested on the Motorola G06 (Lagos), MediaTek 
 - Both GSIs score roughly 8-10% higher in multi-core than the stock number, probably because there's less Motorola bloat running in the background.
 - The stock scores are a generic result from the web, **not** a run on my phone, so treat the comparison as approximate.
 - Benchmarks aren't everything. Stability, battery life, GPU behavior in games and root/module compatibility matter more in daily use.
-  
+
+
+## Debloater — De-bloat (needs root)
+
+**⚠️ NEEDS ROOT — this app only works on a rooted phone (KernelSU).**
+Open the app, tap DEBLOAT, and allow root in KernelSU. Without root it cannot disable anything.
+
+Get the APK from **Releases → De-bloat** (Debloater v1.1, 21 KB, `debloat.app`, zero permissions, no internet).
+
+What it does: runs `pm disable-user` on-device, no PC, no ADB, no Termux. It disables apps — it does not uninstall them. Tap UNDO to re-enable everything.
+
+- v1.1: 72 safe / 12 risky / 84 undo
+- The safe list disables the bloat; the risky list (Play Services, Play Store, Dialer, Contacts, Camera, Setup Wizard and other core apps) is OFF unless you tick it yourself.
+- UNDO re-enables all 84 at once.
+
+### Trial and error — how the list was made
+
+This list was not copied from the internet. I spent **2–3 months doing trial and error** to get a decent list for the Moto G06 — disabling apps one by one, rebooting, checking what broke, and putting back what the phone actually needed. I checked it on Claude back then too, before I had Muse. One Motorola core app I forgot about still bricked my phone once, so the risky ones stay off by default for a reason.
+
+
+
 
 
 ## Files
@@ -340,6 +360,8 @@ Honestly, patching your own image is always preferable. There's no reason to bli
 - DSU Sideloader: https://github.com/VegaBobo/DSU-Sideloader
 - Luke(me) (lukekorea157): rooting, flashing, GSI testing and all benchmark runs.
 - Claude by Anthropic (AI assistant): benchmark analysis, comparison spreadsheet and write-up help.
+- **Debloater app built by Muse (Meta AI) for lukekorea157** — plain Java, no libraries, no internet, no ads, 21 KB.
+- The debloat list itself is mine — 2–3 months of testing on my own Moto G06.
 
 
 ## And that's it
