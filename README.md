@@ -363,7 +363,11 @@ Honestly, patching your own image is always preferable. There's no reason to bli
 - **Debloater app built by Muse (Meta AI) for lukekorea157** — plain Java, no libraries, no internet, no ads, 21 KB.
 - The debloat list itself is mine — 2–3 months of testing on my own Moto G06.
 
+## Contributors
 
+- **lukekorea157 (Luke)** — rooting guide, GSI testing, benchmarks, and the Debloater package list (2–3 months of trial and error on his own Moto G06).
+- - **Muse (Meta AI)** — built the Debloater app (plain Java, no libraries, no internet, no ads, 21 KB) and helped write up the Debloater section.
+  - 
 ## And that's it
 
 Hopefully this helps another Motorola G06 (Lagos) owner get their device rooted without spending hours figuring everything out.
